@@ -21,7 +21,9 @@
             <input type="search" id="city-name" class="form-control rounded" placeholder="Search" aria-label="Search"
                 aria-describedby="search-addon" />
             <button type="button" class="btn btn-outline-primary" id="search">search</button>
-            <div class="searchHistory"></div>
+            <div class="searchHistory">
+                <ul class="pastCity"></ul>
+            </div>
         </div>
     </div>
     <div class="row" id="weathercard">
@@ -29,74 +31,71 @@
         <div class="card">
             <img class="card-img-top" id="card-img">
             <div class="card-body">
-              <div class="card-title" id="city-name"></div>
-              <div class="date"></div>
-              <div class="city-temperature"></div>
+              <div class="card-title" id="city"></div>
+              <div class="currentDate"></div>
+              <div class="city-temp"></div>
               <div class="city-humidity"></div>
               <div class="city-wind"></div>
               <div class="city-uv"></div>
             </div>
     </div>
     <div class="row" id="future-weather">
-        <div class="col-4 col-sm-2">
+        <div class="col-2 col-sm-1">
             <div class="card">
                 <img class="card-img-top" id="card-img">
                 <div class="card-body">
-                  <h5 class="card-title" id="city-name"></h5>
+                  <h5 class="card-title" id="city"></h5>
                   <div class="date1"></div>
                   <div class="city-temperature"></div>
                   <div class="city-humidity"></div>
                 </div>
             </div>
         </div>
-        <div class="col-4 col-sm-2">
+        <div class="col-2 col-sm-1">
             <div class="card">
                 <img class="card-img-top" id="card-img">
                 <div class="card-body">
-                  <h5 class="card-title" id="city-name"></h5>
+                  <h5 class="card-title" id="city"></h5>
                   <div class="date2"></div>
                   <div class="city-temperature"></div>
                   <div class="city-humidity"></div>
                 </div>
             </div>
         </div>
-        <div class="col-4 col-sm-2">
+        <div class="col-2 col-sm-1">
             <div class="card">
                 <img class="card-img-top" id="card-img">
                 <div class="card-body">
-                  <h5 class="card-title" id="city-name"></h5>
+                  <h5 class="card-title" id="city"></h5>
                   <div class="date3"></div>
                   <div class="city-temperature"></div>
                   <div class="city-humidity"></div>
                 </div>
             </div>
         </div>
+        <div class="col-2 col-sm-1">
+            <div class="card">
+                <img class="card-img-top" id="card-img">
+                <div class="card-body">
+                  <h5 class="card-title" id="city"></h5>
+                  <div class="date"></div>
+                  <div class="city-temperature"></div>
+                  <div class="city-humidity"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 col-sm-1">
+            <div class="card">
+                <img class="card-img-top" id="card-img">
+                <div class="card-body">
+                  <h5 class="card-title" id="city"></h5>
+                  <div class="date"></div>
+                  <div class="city-temperature"></div>
+                  <div class="city-humidity"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row" id="future-weather">
-        <div class="col-2 col-sm-1"></div>
-        <div class="col-4 col-sm-2">
-            <div class="card">
-                <img class="card-img-top" id="card-img">
-                <div class="card-body">
-                  <h5 class="card-title" id="city-name"></h5>
-                  <div class="date4"></div>
-                  <div class="city-temperature"></div>
-                  <div class="city-humidity"></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 col-sm-2">
-            <div class="card">
-                <img class="card-img-top" id="card-img">
-                <div class="card-body">
-                  <h5 class="card-title" id="city-name"></h5>
-                  <div class="date5"></div>
-                  <div class="city-temperature"></div>
-                  <div class="city-humidity"></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-2 col-sm-1"></div>
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
