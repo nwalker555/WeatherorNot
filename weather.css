@@ -6,16 +6,26 @@
 }
 
 #weathercard {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+    width: 80%;
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 20px;
+    float: right;
+    align-content: center;
 }
 
 #future-weather {
-    width: 60%;
     text-align: center;
-    margin : 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    align-items: center;
 }
 
